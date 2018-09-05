@@ -10,6 +10,10 @@ function MasterViewModel() {
 
         onNavigate: function () {
             topmost().navigate('main-page');
+        },
+
+        reload: function () {
+            topmost().navigate('master-page');
         }
 	});
 

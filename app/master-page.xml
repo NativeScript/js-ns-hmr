@@ -6,6 +6,7 @@
 		<StackLayout class="home-panel">
             <Button text="tap tap" tap="{{ onTap }}" />
             <Button text="Navigate" tap="{{ onNavigate }}" class="btn"/>
+            <Button text="Reload" tap="{{ reload }}" class="btn"/>
             <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
 		</StackLayout>
 	</ScrollView>
