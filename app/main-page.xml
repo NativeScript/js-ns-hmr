@@ -9,6 +9,7 @@
         <Label text="Tap the button" class="h1 text-center"/>
         <Button text="TAP" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
         <Button text="Navigate" tap="{{ onNavigate }}" class="btn"/>
+        <Button text="Reload" tap="{{ reload }}" class="btn"/>
         <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
     </StackLayout>
 </Page>

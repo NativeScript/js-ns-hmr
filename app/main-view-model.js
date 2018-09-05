@@ -5,7 +5,7 @@ function getMessage(counter) {
     if (counter <= 0) {
         return "Hoorraaay! You unlocked the NativeScript clicker achievement!";
     } else {
-        return counter + " taps left";
+        return counter + " taps";
     }
 }
 
@@ -22,6 +22,10 @@ function createViewModel() {
 
     viewModel.onNavigate = function () {
         topmost().navigate('master-page')
+    }
+
+    viewModel.reload = function () {
+        topmost().navigate('main-page')
     }
 
     return viewModel;
