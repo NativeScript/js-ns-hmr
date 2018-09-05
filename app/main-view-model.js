@@ -5,7 +5,7 @@ function getMessage(counter) {
     if (counter <= 0) {
         return "Hoorraaay! You unlocked the NativeScript clicker achievement!";
     } else {
-        return counter + " dsadsa  left";
+        return counter + " taps left";
     }
 }
 
@@ -17,6 +17,10 @@ function createViewModel() {
     viewModel.onTap = function() {
         this.counter--;
         this.set("message", getMessage(this.counter));
+
+    }
+
+    viewModel.onNavigate = function () {
         topmost().navigate('master-page')
     }
 

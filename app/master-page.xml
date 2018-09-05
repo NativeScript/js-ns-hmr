@@ -5,6 +5,8 @@
 	<ScrollView>
 		<StackLayout class="home-panel">
             <Button text="tap tap" tap="{{ onTap }}" />
+            <Button text="Navigate" tap="{{ onNavigate }}" class="btn"/>
+            <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
 		</StackLayout>
 	</ScrollView>
 </Page>
