@@ -9,4 +9,3 @@ function onNavigatingTo(args) {
 
 exports.onNavigatingTo = onNavigatingTo;
 
-//module.hot && module.hot.accept();
