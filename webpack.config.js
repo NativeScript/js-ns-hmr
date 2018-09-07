@@ -149,6 +149,10 @@ module.exports = env => {
                         },
                     ].filter(loader => !!loader)
                 },
+                {
+                    test: /(-page\.js)|(\.(html|xml|css|scss))$/,
+                    use: '../auto-accept-loader'
+                },
 
                 { test: /\.(html|xml)$/, use: "nativescript-dev-webpack/xml-namespace-loader"},
 
