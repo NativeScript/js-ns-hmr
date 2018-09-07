@@ -2,15 +2,15 @@ var application = require("application");
 var update = require("./hot");
 var reloadPage = require("ui/frame").reloadPage;
 
-application.run({ moduleName: "app-root" });
-
 if(module.hot) {
-    //const original = global.__onLiveSync;
+    const originalLiveSync = global.__onLiveSync;
     global.__onLiveSync = function() {
         console.log("APP.JS --> LiveSyncing...");
         update("", {});
         setTimeout(() => {
-            reloadPage();
+            originalLiveSync();
         }, 0);
     };
 }
+
+application.run({ moduleName: "app-root" });
