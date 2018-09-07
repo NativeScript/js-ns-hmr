@@ -9,5 +9,3 @@ function pageLoaded(args) {
 }
 
 exports.pageLoaded = pageLoaded;
-
-//module.hot && module.hot.accept();
