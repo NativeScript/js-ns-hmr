@@ -17,6 +17,6 @@
   },
   "readme": "NativeScript Application",
   "devDependencies": {
-    "nativescript-dev-webpack": "github:nativescript/nativescript-dev-webpack#sis0k0/hot-update"
+    "nativescript-dev-webpack": "next"
   }
 }
