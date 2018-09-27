@@ -1,25 +1,24 @@
-# NativeScript JavaScript Template
+# Important!
 
-This template creates a "Hello, world" NativeScript app using JavaScript.
+This is a demo for an experimental feature.
+The feature is still work in progress.
+The API may change.
 
-This is the default template, so you can create a new app that uses it with the `--template` option:
+## Enable HMR
 
-```
-tns create my-app-name --template tns-template-hello-world
-```
-
-Or without it:
+1.  Install NativeScript CLI from the `next` tag.
 
 ```
-tns create my-app-name
+npm install -g nativescript@next
 ```
 
-> Note: Both commands will create a new NativeScript app that uses the latest version of this template published to [npm] (https://www.npmjs.com/package/tns-template-hello-world).
-
-If you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:
-
+2. Install node dependencies.
 ```
-tns create my-app-name --template https://github.com/NativeScript/template-hello-world.git#master
+npm install
 ```
 
-**NB:** Please, have in mind that the master branch may refer to dependencies that are not on NPM yet!
+3. Run with the `hmr` flag:
+```
+tns run android --hmr
+```
+
