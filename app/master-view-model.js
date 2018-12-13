@@ -1,5 +1,5 @@
-var observableModule = require("data/observable");
-var topmost = require("ui/frame").topmost;
+var observableModule = require("tns-core-modules/data/observable");
+var topmost = require("tns-core-modules/ui/frame").topmost;
 
 function MasterViewModel() {
 	var viewModel = observableModule.fromObject({

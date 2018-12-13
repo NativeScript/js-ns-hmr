@@ -1,5 +1,5 @@
-var Observable = require("data/observable").Observable;
-var topmost = require("ui/frame").topmost;
+var Observable = require("tns-core-modules/data/observable").Observable;
+var topmost = require("tns-core-modules/ui/frame").topmost;
 
 function getMessage(counter) {
     if (counter <= 0) {
