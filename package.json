@@ -1,16 +1,22 @@
 {
   "nativescript": {
-    "id": "org.nativescript.testjs"
+    "id": "org.nativescript.testjs",
+    "tns-ios": {
+      "version": "5.1.0"
+    },
+    "tns-android": {
+      "version": "5.1.0"
+    }
   },
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
   "repository": "<fill-your-repository-here>",
   "dependencies": {
     "nativescript-theme-core": "~1.0.4",
-    "tns-core-modules": "~5.1.0"
+    "tns-core-modules": "next"
   },
   "readme": "NativeScript Application",
   "devDependencies": {
-    "nativescript-dev-webpack": "~0.18.3"
+    "nativescript-dev-webpack": "next"
   }
 }
