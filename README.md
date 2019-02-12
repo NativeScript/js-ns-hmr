@@ -3,7 +3,9 @@
 The HMR feature is still in beta.
 The API may change.
 
-For more information, check out the [design doc](https://goo.gl/NkYXga).
+For detailed information, please refer to:
+- HMR tracking [issue](https://github.com/NativeScript/NativeScript/issues/6398)
+- HMR design [document](https://goo.gl/NkYXga)
 
 ## Enable HMR
 
