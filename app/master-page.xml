@@ -1,5 +1,5 @@
 <Page loaded="pageLoaded" class="page" xmlns="http://www.nativescript.org/tns.xsd">
-	<ActionBar title="Master" class="action-bar">
+	<ActionBar title="Master">
 	</ActionBar>
 
 	<ScrollView>
@@ -7,7 +7,7 @@
             <Button text="tap tap" tap="{{ onTap }}" />
             <Button text="Navigate" tap="{{ onNavigate }}" class="btn"/>
             <Button text="Reload" tap="{{ reload }}" class="btn"/>
-            <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
+            <Label text="Label" textWrap="true"/>
 		</StackLayout>
 	</ScrollView>
 </Page>

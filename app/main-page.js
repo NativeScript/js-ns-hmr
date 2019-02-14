@@ -5,6 +5,7 @@ function onNavigatingTo(args) {
 
     page.bindingContext = createViewModel();
 
+    console.log("---> main");
 }
 
 exports.onNavigatingTo = onNavigatingTo;

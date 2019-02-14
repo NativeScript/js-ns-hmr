@@ -1,16 +1,16 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
 
     <Page.actionBar>
-        <ActionBar title="application" icon="" class="action-bar">
+        <ActionBar title="application" icon="">
         </ActionBar>
     </Page.actionBar>
 
     <StackLayout class="p-20">
-        <Label text="Tap the button" class="h1 text-center"/>
+        <Label text="Tap the button" />
         <Button text="TAP" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
         <Button text="Navigate" tap="{{ onNavigate }}" class="btn"/>
         <Button text="Reload" tap="{{ reload }}" class="btn"/>
         <TextField text="{{ textFieldValue }}" hint="Enter text..." />
-        <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
+        <Label text="{{ message }}" textWrap="true"/>
     </StackLayout>
 </Page>
